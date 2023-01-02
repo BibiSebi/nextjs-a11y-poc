@@ -10,11 +10,9 @@
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
-
   "resolutions": {
     "enhanced-resolve": "5.10.0"
   },
-
   "dependencies": {
     "@types/node": "18.11.9",
     "@types/react": "18.0.25",
@@ -28,6 +26,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.20.2",
+    "@storybook/addon-a11y": "^6.5.15",
     "@storybook/addon-actions": "^6.5.13",
     "@storybook/addon-essentials": "^6.5.13",
     "@storybook/addon-interactions": "^6.5.13",
